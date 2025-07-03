@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+}
+#banner{
+    background-color:burlywood;
+    width: 69%;
+    height: 15vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+#banner h1{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000; 
+}
+#logo{
+    width: 30%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    border-radius: 50%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+}
+li{
+    padding: 3.8vh;
+    align-items: center;
+    background-color: rgb(236, 193, 112);
+}
+ul li{
+    border-radius: 40px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+.linha:hover {
+    transform: scale(1.2); 
+  }
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#linha{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+img{
+    border-radius: 100%;
+}
+#menu2{
+    background-color: crimson;
+    width: 28vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-image: url(../img/filhotes-fofos-6.gif); 
+}
+#menuprincipal{
+    background-color:rgb(117, 198, 245);
+    width: 70vw;
+    height: 10vh;
+    border-radius: 20px;
+    background-image: url(../img/source.gif);
+    background-size: contain;
+    background-position: center;
+}
+#conteudo{
+    background-color:rgb(250, 162, 0);
+    width: 70vw;
+    height: 70vh;
+    border-radius: 20px;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+}
+#banner{
+    background-image: url(../img/CONHECA-E-APRENDA-A-IDENTIFICAR-AS-RACAS-DE-GATOS-MAIS-COMUNS-NO-BRASIL-1024x576.jpg);
+}
+#linha2{
+    display: flex;
+}
+#rodape{
+    background-color: darkred;
+    height: 15vh;
+    width: 98vw;
+    border-radius: 20px;
+}
+
+
