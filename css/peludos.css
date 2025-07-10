@@ -67,7 +67,7 @@ a{
 #menu2{
     background-color: rgb(56, 99, 100);
     width: 25vw;
-    height: 133vh;
+    height: 200vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -147,5 +147,7 @@ ol li::marker {
     justify-content: space-between;
     padding: 20px;
 }
-
-
+#menu2 a{
+    display: flex;
+    justify-content: center;
+}
